@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+<body>
+<h1>
+       Hey, this is a form page !!
+</h1>
+<form method="POST">
+        {{ form_full.as_p  }}
+        {% csrf_token %}
+        <input type="submit" value="Submit_Form">
+</form>
+
+</body>
+</html>

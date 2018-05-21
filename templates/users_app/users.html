@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+<head>
+
+</head>
+<body>
+<h1>
+    Hat pagle
+</h1>
+    {% for a_user in users_set %}
+        <h5>
+        {{  a_user.first_name }}
+        <br>
+        {{  a_user.last_name }}
+        <br>
+        {{ a_user.email }}
+        </h5>
+
+    {% endfor %}
+</body>
+</html>
